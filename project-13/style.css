@@ -1,0 +1,277 @@
+.container{
+    display: grid;
+    background-color: aliceblue;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+}
+
+.grid-1{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.left-header{
+    height: 450px;
+    background: blueviolet;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+.head-nav{
+    float: right;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+.head-nav>ul{
+    display: flex;
+    list-style: none;
+}
+
+.head-nav>ul>li{
+    margin-right: 10px;
+}
+.head-nav>button{
+    height: 25px;
+    width: 75px;
+    background: #03C6C7;
+    color: white;
+    border: none;
+    margin-top: 12px;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.paragraph-sec{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.paragraph-sec>h1{
+    color: white;
+    width: 207px;
+    font-style: none;
+    font-weight: lighter;
+}
+
+.paragraph-sec>h3{
+    color: white;
+    font-style: none;
+    font-weight: lighter;
+    font-size: 9px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 222px;
+}
+
+.paragraph-sec>button{
+    height: 30px;
+    width: 125px;
+    background: #03C6C7;
+    color: white;
+    border: none;
+    margin-top: 12px;
+}
+
+.photo>img{
+    height: 314px;
+    float: right;
+    margin-top: -252px;
+}
+
+/* body-section */
+
+.left-body>img{
+    height: 314px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.body-paragraph>h2{
+    font-size: 22px;
+    width: 243px;
+    margin-left: 394px;
+    margin-top: -256px;
+}
+
+.arrow-image{
+    height: 15px;
+    margin-right: 10px;
+
+}
+
+.list-item{
+    display: inline-flex;
+    margin-left: 397px;
+}
+.list-item>h3{
+    font-size: 15px;
+    margin-top: -3px;
+
+}
+
+.list-item-2>h4{
+    font-size: small;
+    font-weight: lighter;
+    width: 212px;
+    margin-left: 400px;
+    margin-top: -3px;
+}
+
+.body-end{
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+    margin-top: 52px;
+    text-align: center;
+}
+
+/* footer */
+
+.footer-pic-1{
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(235, 190, 202);
+    padding: 15px;
+
+}
+
+.footer-pic-2{
+    height: 27px;
+    border-radius: 50%;
+    background: rgb(233, 191, 191);
+    padding: 15px;
+}
+
+.footer-pic-3{
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(192, 233, 188);
+    padding: 15px;
+
+}
+
+.footer-pic-4{
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(238, 193, 206);
+    padding: 15px;
+
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    margin-top: 50px;
+    column-gap: 10px;
+   
+}
+
+.sub-grid{
+    box-shadow: 4px 4px 4px 4px rgb(202, 197, 197);
+    border-radius: 20px;
+    text-align: center;
+    height: 190px;
+}
+
+.sub-grid>img{
+    margin-top: 15px;
+}
+
+
+.footer-text-1{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    height: 96px;
+    border-radius: 40px 10px;
+}
+
+.footer-text-2{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    height: 96px;
+}
+
+
+.footer-text-1>h3{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.footer-text-1>h4{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    width: 115px;
+    margin: auto;
+}
+
+.footer-text-2>h3{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.footer-text-2>h4{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    width: 115px;
+    margin: auto;
+}
+
+.footer-text>h3{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.footer-text>h4{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    width: 115px;
+    margin: auto;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .container{
+        display: grid;
+        background-color: aliceblue;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 100px;
+    }
+
+    .grid-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 50px;
+        margin-top: 50px;
+        column-gap: 30px;
+        row-gap: 30px;
+       
+    }
+
+}
+
+
+

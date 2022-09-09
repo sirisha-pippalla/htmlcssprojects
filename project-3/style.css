@@ -1,0 +1,95 @@
+.container{
+    height: 100vh;
+    background-color: #4b4b4b;  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    margin: 0 40px;  
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+    margin-left: 196px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: rgb(230, 227, 218);
+}
+
+.list-item{
+    margin-left: 40px;
+}
+
+.white-logo{
+  margin-top: 30px;
+}
+
+.logo{
+    height: 35px;
+}
+
+.button-small{
+    margin-top: 25px;
+    color: rgb(177, 177, 44);
+    background-color:#355153;
+    border-radius: 7px;
+    border-color: rgb(177, 177, 44);
+    height: 45px;
+    width: 140px;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.bg-cls{
+    height: 360px;
+    width: 1410px;
+}
+
+.arrow-section{
+    display: flex;
+    margin-left: 1250px;
+}
+.second-section{
+    display: flex;
+}
+.left-cls{
+    color: white;
+    margin-left: 100px;
+    width: 45%;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    line-height: 70px;
+    word-spacing: 10px;
+}
+
+.paragraph{
+    color:rgb(230, 227, 218);
+    letter-spacing: 2px;
+    margin-left: 200px;
+    width: 361px;
+    margin-top: 76px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.right{
+    height: 73px;
+    width: 90px;
+    background-color: rgb(141, 141, 31);
+    padding: 3px;
+}
+    
+.left{
+    height: 73px;
+    width: 90px;
+    background-color: #758283;
+    margin-right: 0px;
+    padding: 3px;
+}

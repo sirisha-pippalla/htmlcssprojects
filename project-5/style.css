@@ -1,0 +1,97 @@
+html body{
+    height:120%;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+ 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:black;
+    height: 70px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    color:white;
+}
+
+.list-item{
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.list-item-1{
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.list-item-1>span{
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.button-small{
+   background-color: rgb(158, 10, 158);
+   border: rgb(158, 10, 158);
+   color: white;
+   height: 35px;
+   width: 110px;
+   border-radius: 0.5rem;
+   margin-right: 100px;
+}
+
+.white-png>img{
+    height: 40px;
+    margin-left: 100px;
+}
+
+.grow-list {
+    flex-grow: 1
+}
+
+.line {
+  border-left: 2px solid white;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.white png{
+    border-left: 100px
+}
+
+.hero{
+   text-align: center;
+   color: white;
+}
+
+.hero-heading{
+    font-size: 90px;
+    margin-top: 110px;
+    width: 812;
+    margin-left: 259px;
+    line-height: 80px;
+    width: 936px;
+}
+
+.button-large{
+    height:63px;
+    width: 330px;
+    border-radius: 0.6em;
+    background-color:rgb(158, 10, 158);
+    border: rgb(158, 10, 158);
+    color: white;
+    font-size: 27px;
+    margin-top: 20px; 
+}
+
+.hero-description{
+    font-size: 25px;
+    margin-top: -50px;
+}

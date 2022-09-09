@@ -1,0 +1,234 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 40px;  
+}
+
+.nav-items{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.nav-item0{
+    color: red;
+}
+
+.nav-item1{
+    font-weight: lighter;
+}
+
+.nav-item2{
+    font-weight: lighter;
+}
+
+.nav-item3{
+    font-weight: lighter;
+}
+
+.new{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.circle{
+    position: relative;
+    top: 5px;
+}
+
+.headphone{
+    margin-left: 65px;
+    font-size: 75px;
+    font-family: 'Jua', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+    
+.plus1{
+
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 170px;
+}
+
+.sound{
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+    font-weight: lighter;
+}
+
+.plus2{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 170px;
+}
+
+.fm{
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+    font-weight: lighter;
+}
+
+.plus3{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 170px;
+}
+
+.playtime{
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+    font-weight: lighter;
+}
+
+.text{
+    margin-left: 60px;
+    width: 48%;
+    font-weight: lighter;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    color: gray;
+    font-family: montserrat;
+    margin-top: 50px;
+}
+
+.action-btns{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.action-btn1{
+    width: 165px;
+    height: 50px;
+    border-radius: 40px;
+    background-color:rgb(231, 21, 21);
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid red;
+}
+
+.action-btn2{
+    position: relative;
+    left: 40px;
+    width: 165px;
+    height: 50px;
+    border-radius: 40px;
+    background-color:rgb(231, 21, 21);
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid red;
+}
+    
+.discount{
+    position: absolute;
+    bottom: 140px;
+    left: 851px;
+    z-index: 9999;
+}
+
+.text2{
+    position: relative;
+    bottom: 280px;
+    left: 900px;
+    color: white;
+    z-index: 9999;
+}
+
+.value{
+    position: relative;
+    bottom: 360px;
+    left: 900px;
+    color: white;
+    z-index: 9999;
+}
+
+.headphone-img{
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+}
+
+.dots{
+    display: flex;
+    position: relative;
+    bottom: 190px;
+    left: 1065px;
+}
+
+.yellow-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(226, 226, 13);
+    margin-right: 20px;
+}
+
+.tomato-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:tomato;
+}
+
+.black-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:black;
+    margin-left: 20px;
+}
+
+.action-btn{
+    position: relative;
+    left: 1040px;
+    bottom: 150px;
+    width: 165px;
+    height: 50px;
+    border-radius: 40px;
+    background-color:rgb(231, 21, 21);
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid red;
+}
+
+@media screen and (max-width:1000px){
+    .nav-items{
+        display: none;
+    }
+
+    .headphone-img{
+        position: absolute;
+        bottom: 300px;
+        right: -30px;
+        height:20%;
+    }
+
+    .discount{
+        display: none;
+    }
+
+    .discount-content{
+        display: none;
+    }
+}
+    

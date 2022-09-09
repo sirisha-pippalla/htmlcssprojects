@@ -1,0 +1,165 @@
+.container{
+    margin: 40px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-content: space-between; 
+    margin-right: -33px;
+    font-family: 'Rajdhani', sans-serif;
+   
+}
+
+.list-item{
+   justify-content: space-between;
+    margin-right: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    
+}
+
+.list-item1{
+    border-bottom: 2px solid;
+    margin-right: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.Logo>img{
+    height: 40px;
+}
+
+.button-group{
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav-button{
+    height: 35px;
+    width: 120px;
+    border-radius: 10px
+}
+
+svg{
+    height:20px;
+    margin-top: 7px;
+}
+
+.hero-container{
+    display: flex;
+    margin-top:100px;
+ }
+
+.square{
+    margin-top: 153px;
+    margin-left: 206px;
+ }
+
+.square>img{
+    height: 325px;
+ }
+
+.person-hero-iamge{
+    position: absolute;
+    top: 200px;
+    left: 183px;
+}
+
+.person-hero-iamge>img{
+    height: 425px;
+ }
+
+.globe-pattern{
+    position: relative;
+    bottom: 50px;
+    top: -73px;
+    right: -240px;
+}
+
+.globe-pattern>img{
+    height: 60px;
+}
+
+.star{
+    position: relative;
+    left: 645px;
+    top: -35px;
+}
+
+.star>img{
+    height: 60px;
+}
+
+.hero-heading{
+    font-size: 58px;
+    margin-left: -60px;
+    margin-top: 38px;
+}
+
+.hero-description{
+    margin-right: 49px;
+    margin-left: -25px;
+    font-size: 12px;
+    width: 500px;
+    color: gray;
+    text-align: center;
+}
+
+.button-email{
+    height: 33px;
+    width: 165px;
+    border-radius: 0.6em;
+    font-size: 20px;
+}
+
+.button-join{
+    background-color: black;
+    color: white;
+    border-radius: 0.6em;
+    height: 33px;
+    width: 105px;
+    font-size: 14px;
+}
+
+.button-type{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.star-2{
+    height: 40px;
+    margin-top: 43px;
+}
+
+.footer{
+    position: relative;
+    top: -175px;
+}
+
+.contact-heading{
+    margin-left: 187px;
+    margin-top: 140px;
+    color: grey;
+    font-size:23px; 
+}
+
+.icons{
+    margin-left: 155px;
+    margin-top: -19px;
+}
+
+.social-media{
+    height: 30px;
+    margin-right: 20px;
+}

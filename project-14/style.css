@@ -1,0 +1,299 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.grid-1{
+    background:url(./photos/left-side.jpeg);
+    background-repeat: none;
+    height: 100vh;
+    background-size: cover;
+}
+
+.grid-1>img{
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+hr{
+    width: 200px;
+    background: black;
+    border: none;
+    height: 2px;
+    position: relative;
+    top: 86px;
+    right: 265px;
+}
+
+.nav-item{
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-item-1{
+    color: black;
+    margin-top: 50px;
+    font-weight: normal;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.nav-item-11{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: gray;
+    font-weight: normal;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+
+.nav-item::before{
+    height: 2px;
+    width: 200px;
+    color: 1px solid black;
+}
+
+/* <!-- body-left-section --> */
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 100px;
+    margin-top: -304px;
+}
+
+.social-media>img{
+    height: 15px;
+    margin-top: 35px;
+
+}
+
+.body-right-section>button{
+    height: 70px;
+    width: 325px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 555px;
+    margin-top: 9px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.body-right-section{
+    margin-top: 100px;  
+}
+
+.creative{
+    font-family: 'Bungee Outline';
+    font-size: 120px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+.doted{
+    font-size: 120px;
+    margin-top: -143px;
+    margin-left: 236px;
+}
+
+.body-right-section>h3{
+    color: gray;
+    font-weight: lighter;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 25px;
+    width: 66px;
+    margin-top: -183px;
+    margin-left: 555px;
+}
+
+/* footer-section */
+
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color:gray;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.dots{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.dot-1{
+    height: 12px;
+    width: 12px;
+    background-color:black;
+    border-radius: 50%;
+}
+
+.list-last{
+    color: black !important;
+}
+
+.footr-list>ul{
+    margin-top: -513px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.footr-list>ul>li{
+    margin-top: 30px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    color: gray;
+}
+
+.vertical-line-1{
+    width: 2px;
+    height: 300px;
+    border: none;
+    background-color:gray;
+    position: relative;
+    left: 55px;
+    bottom: 168px;
+}
+
+.quotation{
+    height: 50px;
+    margin-left: 337px;
+    position: relative;
+    bottom: 244px;
+}
+
+.paragraph{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 400;
+    width: 355px;
+    margin-left: 342px;
+    margin-top: -240px;
+}
+
+.footer-image{
+    height: 235px;
+    margin-left: 340px;
+    width: 420px;
+}
+
+.vertical-line-2{
+    width: 2px;
+    height: 160px;
+    border: none;
+    background-color:black;
+    float: right;
+    position: relative;
+    top: -1px;
+    right: 110px;
+}
+
+.arrow-mark{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 15px;
+    transform: rotate(45deg);
+    margin-left: 95px;
+    margin-bottom: 79px;
+}
+
+@media screen and (max-width:1100px){
+    .grid-1{
+        display: none;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .nav-item{
+        float: left;
+    }
+
+    .nav-item-1{
+        color: black;
+        margin-top: 50px;
+        font-weight: normal;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 8px;
+    }
+    
+    .nav-item-11{
+        margin-left: 100px;
+        margin-top: 50px;
+        color: gray;
+        font-weight: normal;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 8px;
+    }
+
+    .creative{
+        font-family: 'Bungee Outline';
+        font-size: 60px;
+        font-weight: bolder;
+        margin-left: 138px;
+    
+    }
+    
+    .doted{
+        font-size: 60px;
+        margin-top: -85px;
+        margin-left: 266px;
+    }
+
+    .body-right-section>h3{
+        font-size: 16px;
+        margin-top: -95px;
+        margin-left: 422px;
+    }
+
+    .body-right-section>button{
+        margin-left: 164px;
+        height: 43px;
+    }
+    
+
+    .dots{
+        display: none;
+    }
+
+    .vertical-line-1{
+        display: none;
+    }
+
+    .footr-list>ul{
+        display: none;
+    }
+
+    .f-arrow{
+        display: none;
+    }
+
+    .paragraph{
+        margin-top: 50px;
+        margin-left: 175px;
+    }
+
+    .footer-image{
+        margin-left: 144px;
+    }
+
+    .quotation{
+        display: none;
+    }
+
+    .social-media{
+        display: none;
+    }
+}
+
+
+
+

@@ -1,0 +1,86 @@
+
+.container {
+    background: linear-gradient(to top, #c4c0d5ba, #343A4B), url("./assets/bgImg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+    margin-top: 40px;
+    
+}
+
+.logo{
+    margin-left: -20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item {
+    color: #ffc233;
+    list-style: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: red;
+}
+
+.button-small {
+    background-color: #FF505F;
+    color: white;
+    padding: 10px 15px;
+    outline: #FF505F;
+    border: 1px solid #FF505F;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+}
+
+.hero {
+   
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 137px;
+    font-weight: 600;
+    color: #FFC233;
+    width: 1200px;
+    margin-left: 124px;
+    line-height: 122px;
+    margin-top: 70px;
+}
+
+.img-cls {
+    text-align: right;
+}
+
+.button-large{
+    height: 65px;
+    width: 230px;
+    background-color: #FF505F;
+    border: 1px solid #FF505F;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: -77px;
+}
+
+.img-cls{
+    margin-top: -140px;
+    margin-right: 80px;
+}

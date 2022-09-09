@@ -1,0 +1,535 @@
+/* header-section */
+
+.header-section{
+    height: 600px;
+    background-color:grey;
+}
+
+.menu{
+    float: right;
+    display: flex;
+    margin-right: 30px;  
+}
+
+.menu>ul{
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.menu>ul>li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.first-button{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.first-button>button{
+    background: transparent;
+    color: white;
+    height: 30px;
+    width: 115px;
+    border: white
+}
+
+.header-logo>img{
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+/* subhead */
+
+.subhead-left>h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 47px;
+    width: 400px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+.subhead-left>h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    width: 413px;
+    position: relative;
+    top: 237px;
+    float: right;
+    left: 411px;
+}
+
+.left-side-button{
+    display: flex;
+    position: relative;
+    top: 324px;
+    left: 861px;
+    width: 388px;
+    background: white;
+    height: 61px;
+}
+
+.email-icon{
+    height: 15px;
+    position: relative;
+    top: 22px;
+    left: 14px;
+}
+
+.big-button{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(224, 209, 209);
+    position: relative;
+    left: 22px;
+    font-weight: lighter;
+    font-size: 14px;
+    top: 8px;
+}
+
+.left-side-button>h4{
+    margin-left: 110px;
+    background: rgb(30, 155, 30);
+    padding: 15px;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.first-image{
+    height: 400px;
+    width: 610px;
+    margin-left: 100px;
+    margin-top: -65px;
+}
+
+/* body-section */
+
+/* body-section-1 */
+
+.heading{
+    width: 574px;
+    text-align: center;
+    margin: auto;
+    font-size: 51px;
+    position: relative;
+    top: 100px;
+}
+
+
+.un-order{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.un-order>ul{
+    list-style: none;
+}
+
+.un-order>ul>li{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.list-items-1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.list-items-2{
+    color: grey;
+    font-size: 20px;
+}
+
+.body-1-image{
+    height: 700px;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+
+/* body-section-2 */
+
+.section-2-heading{
+    display: flex;
+    font-size: 40px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.body-2-left>h2{
+    font-size: 45px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.body-2-left>h4{
+    margin-left: 100px;
+    color: gray;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    width: 486px;
+}
+
+.body-2-left>button{
+    margin-left: 100px;
+    height: 40px;
+    width: 145px;
+    color: white;
+    background: rgb(30, 155, 30);
+    border: none;
+}
+
+.body-image-2{
+    height: 485px;
+    width: 590px;
+    float: right;
+    margin-top: -333px;
+    margin-right: 100px;
+}
+
+/* body-section-3 */
+
+.body-right-3>h2{
+    font-size: 45px;
+    width: 500px;
+}
+
+.body-right-3>h4{
+    color: gray;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    width: 486px;
+}
+
+.body-right-3>button{
+    height: 40px;
+    width: 145px;
+    color: white;
+    background: rgb(30, 155, 30);
+    border: none;
+}
+
+.body-right-3{
+   margin-top: 375px;
+   margin-left: 720px;
+}
+
+.body-image-3{
+    height: 485px;
+    width: 550px;
+    margin-top: -400px;
+    margin-left: 80px;
+}
+
+/* body-section-4 */
+
+.body-section-4>h2{
+    font-size: 45px;
+    width: 500px;
+}
+
+.body-section-4>h4{
+    color: gray;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    width: 486px;
+}
+
+.body-section-4>button{
+    height: 40px;
+    width: 145px;
+    color: white;
+    background: rgb(30, 155, 30);
+    border: none;
+}
+
+.body-section-4{
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.body-image-4{
+    height: 485px;
+    width: 550px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -380px;
+}
+
+/* body-last-section */
+
+.body-last-section{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.last-section-1{
+    width: 307px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+.last-section-2{
+    color: gray;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: lighter;
+    width: 493px;
+    line-height: 25px;
+    margin-left: 80px;
+    letter-spacing: 2px;
+}
+
+/* grid-section */
+
+.grid-1-section>img{
+    width: 325px;
+    height: 500px;
+}
+
+.grid-section{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+
+.grid-1-section>h3{
+    font-size: 25px;
+}
+
+.grid-1-section>h4{
+    color: gray;
+    font-style: normal;
+    font-weight: lighter;
+    width: 300px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.grid-button{
+    height: 40px;
+    width: 145px;
+    color: white;
+    background: rgb(30, 155, 30);
+    border: none;
+    margin-left: 520px;
+    margin-top: 15px;
+}
+
+/* footer-section */
+
+.footer-section{
+    height: 300px;
+    background:#242B2E;
+    margin-top: 100px;
+}
+
+.image-lists{
+    float: right;
+    margin-right: 100px;
+
+}
+.image-list{
+    margin-left: 30px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #758283;
+    margin-top: 20px;
+}
+
+.footer-white-logo{
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.horizontal-line{
+    width: 85%;
+    text-align: center;
+    border-top:1px gray ;
+    margin-top: 25px; 
+}
+
+/* footer-sub-section */
+
+.footer{
+    display: flex;
+    direction: row;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 90px;
+    justify-content: space-between;
+}
+
+.footer-list>ul{
+    list-style: none;
+    color: gray;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.footer-list>ul>.list-head{
+    font-size: 12px;
+    color: white;
+}
+
+/* media query */
+
+@media screen and (max-width:1000px){
+    .header-section{
+        height: 800px;
+        background-color:grey;
+    }
+     
+    .menu>ul{
+        display: none;
+    }
+
+    .sub-head{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subhead-left>h3{
+        display: none;
+    }
+
+    .first-image{
+        height: 250px;
+        width: 380px;
+        margin-left: 304px;
+
+    }
+
+    .left-side-button{
+        margin-left: -565px;
+    }
+
+    /* body-section-1 */
+
+    .heading{
+        font-size: 20px;
+    }
+
+    /* body-section-2 */
+
+    .body-section-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2-heading>h2{
+        margin-top: -20px;
+        font-size: 30px;
+    }
+
+    .body-2-left>h2{
+        font-size: 25px;
+    }
+
+    .body-image-2{
+        margin-top: 34px;
+        margin-right: 130px;
+    }
+
+    /* body-section-3  */
+
+    .body-section-3{
+        display: none; 
+    }
+
+    /* body-section-4 */
+
+    .b-s-4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-section-4{
+        margin-top: -10px;
+    }
+
+    .body-image-4{
+        position: relative;
+        top: 400px;
+        height: 300px;
+    }
+
+    /* body-last-section */
+
+    .body-last-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 340px;
+    }
+
+    .last-section-2{
+        margin-left: 1px;
+    }
+ 
+    /* grid-section */
+
+    .grid-section{
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: 450px;
+    }
+
+
+    .grid-button{
+      display: none;
+    }
+
+    .footer-section{
+      height: 300px;
+      background:#242B2E;
+      margin-top: 100px;
+    }
+    
+/* footer */
+    .footer{
+      display: none;
+    }
+
+    .horizontal-line{
+      display: none;
+    }
+
+    .footer-section{
+     height: 80px;
+     background:#242B2E;
+     margin-top: 50px;
+    }
+    
+
+
+    
+}
+
+

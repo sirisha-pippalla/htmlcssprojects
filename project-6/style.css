@@ -1,0 +1,183 @@
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#navFirst{
+    margin-left: 50px;
+}
+    
+#navMid{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.8;
+    font-size: 25px;
+}
+
+.home{
+    text-decoration: underline;
+}
+
+#navEnd{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+    flex-grow: 0.1;
+}
+
+#midWholePart11{
+    line-height: 34px;
+}
+
+#monstera{
+    font-size: 100px;
+    font-family: 'poppins', sans-serif;
+    margin-top: 150px;
+    margin-left: 40px;
+    letter-spacing: 5px;
+}
+
+.none{
+    margin-top: -90px;
+}
+
+.lorem{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+.morbi{
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: -23px;
+    width: 670px;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    padding-right: 20px;
+    border-radius: 50px;
+    height: 55px;
+    width: 253px;
+    background-color:rgb(25, 76, 25);
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+#midWholePart122{
+    margin-top: 3px;
+    height: 47px;
+    width: 33px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 72px;
+    left: 265px;
+}
+
+#midWholePart13{
+    display: flex;
+    margin-left: 50px;
+}
+
+.feed{
+    position: relative;
+    top: -110px;
+    left: 100px;
+    font-size: 25px;
+}
+
+#light{
+    margin-left: 100px;
+}
+
+.lite{
+    position: relative;
+    top: -90px;
+    left: 150px;
+    font-size: 25px;
+}
+
+.text{
+    margin-top: -140px;
+    margin-left: 94px;
+}
+
+.t1{
+    margin-top: -15px;
+    margin-left: 93px;
+}
+
+.care{
+    position: relative;
+    top: -80px;
+    left: 70px; 
+    font-size: 25px;
+}
+
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 75%;
+}
+
+#care{
+    margin-left: 250px;
+
+}
+.kare{
+    position: relative;
+    top: -90px;
+    left: 313px;
+    font-size: 25px;
+}
+
+.text1{
+    position: relative;
+    top: -125px;
+    left: 143px;
+}
+.t2{
+    position: relative;
+    top: -140px;
+    left: 143px;
+}
+.text2{
+    position: relative;
+    top: -125px;
+    left: 315px;
+}
+.t3{
+    position: relative;
+    top: -141px;
+    left: 314px;
+}
+
+.bt1{
+    font-size: 30px;
+}
+
+.bt2{
+    font-size: 30px;
+    margin-top: -45px;
+}
+.bt3{
+    font-size: 30px;
+    margin-top: -25px;
+}
+
+.bt4{
+    font-size: 30px;
+}
+
+
